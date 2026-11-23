@@ -1,12 +1,12 @@
-# CV-Maker
+# Resume Maker
 
-A one-page CV written in HTML and CSS, laid out for A4.
+A one-page resume written in HTML and CSS, laid out for A4.
 
-The page is a static document: edit `index.html`, open it in a browser, and print or export it to PDF. It is meant for people who want to control the layout of their CV directly in code.
+The page is a static document: edit `index.html`, open it in a browser, and print or export it to PDF. It is meant for people who want to control the layout of their resume directly in code.
 
 ## Table of contents
 
-- [CV-Maker](#cv-maker)
+- [Resume Maker](#resume-maker)
 	- [Table of contents](#table-of-contents)
 	- [How it works](#how-it-works)
 	- [Tech stack](#tech-stack)
@@ -45,8 +45,8 @@ The page is a static document: edit `index.html`, open it in a browser, and prin
 │   ├── div.css      Styles of the layout blocks
 │   ├── style.css    Entry stylesheet: body, dividers, imports
 │   └── utils.css    Font and color variables
-├── output/          Rendered example of the CV
-├── index.html       CV content
+├── output/          Rendered example of the resume
+├── index.html       resume content
 ```
 
 `css/style.css` imports `css/utils.css` and `css/div.css`; `index.html` only links `css/style.css`.
@@ -77,7 +77,7 @@ To produce a PDF, use the browser print dialog with the A4 paper size and backgr
 
 ## Example
 
-![Rendered CV](output/image.png)
+![Rendered resume](output/image.png)
 
 ## License
 
